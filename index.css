@@ -12,11 +12,6 @@ header {
     padding: 10px;
     text-align: center;
 }
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
-}
 #product1 {
     border: 1px solid #ddd;
     padding: 10px;

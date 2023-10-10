@@ -10,7 +10,7 @@
     function updateCartDisplay() {
         var cartList = document.getElementById('cart-list');
         var cartTotalElement = document.getElementById('cart-total');
-        
+        cartList.innerHTML = '';
         cart.forEach(function (product) {
             var li = document.createElement('li');
             li.textContent = product.name + ' DT' + product.price;
