@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>shopping store</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body background="https://i.pinimg.com/236x/e4/a1/0f/e4a10f0bc3c40ce3fd34eb3d10ddd3a0.jpg">
+        <header>
+            <h1 id="sh">Shopping Store</h1>
+        </header>
+        <nav>
+            <a href="women.html">Woemn</a>
+            <a href="about us.html">About us</a>
+            <a href="more infomations.html">More informations?</a>
+            </nav><br>
+        <div class="container">
+            <div id="product1">
+                <img src="https://i.pinimg.com/236x/83/34/2f/83342f93dd10ca38e3ecbc91d9414212.jpg" >
+                <h2>Product 1</h2>
+                <p> ROBE 1</p>
+                <p>Taille: S</p>
+                <p>Price: 100DT</p>
+                <button class="btn" onclick="addToCart('robe1',100)">Add to Cart</button>
+            </div>
+            <div id="product2">
+                <img src="https://i.pinimg.com/236x/d0/83/94/d08394217bd9e2ae0fd497a5c901f8d6.jpg" >
+                <h2>Product 2</h2>
+                <p> ROBE 2</p>
+                <p>Taille: S</p>
+                <p>Price: 120DT</p>
+                <button class="btn" onclick="addToCart('robe2',120)">Add to Cart</button>
+            </div>
+            <div id="product3">
+                <img src="https://i.pinimg.com/236x/a2/b8/33/a2b8332e0cd8202981ee5ecec59ab0d2.jpg" >
+                <h2>Product 3</h2>
+                <p> ROBE 3</p>
+                <p>Taille: S</p>
+                <p>Price: 150DT</p>
+                <button class="btn" onclick="addToCart('robe3',150)">Add to Cart</button>
+            </div>
+            <div id="product4">
+                <img src="https://i.pinimg.com/236x/e0/ac/07/e0ac07afc7ea55d92c31aae6b3f6c105.jpg" >
+                <h2>Product 4</h2>
+                <p> ROBE 4</p>
+                <p>Taille: S</p>
+                <p>Price: 130DT</p>
+                <button class="btn" onclick="addToCart('robe4',130)">Add to Cart</button>
+        </div>
+        <div class="container">
+            <div class="cart">
+                <h2>Shopping Cart</h2>
+                <ul id="cart-list">
+                </ul>
+                <p>Total: <span id="cart-total">0.00</span></p>DT
+                <button class="btn checkout-btn" onclick="checkout()">Checkout</button>
+            </div>
+        </div>
+    <div id="shop"></div>
+    
+    </body>
+    </html>
+    </body>
+    </html>
+<script
+      src="https://code.jquery.com/jquery-3.7.1.js"
+      integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+      crossorigin="anonymous"
+    ></script>
+    <script src="index.js"></script>
+</body>
+</html>
